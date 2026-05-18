@@ -1,16 +1,157 @@
-# React + Vite
+# TaskFlow Pro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern productivity workspace built with React featuring a Kanban-style task management system, premium UI/UX, drag-and-drop functionality, dark/light themes, animations, filtering, sorting, and real-time productivity tracking.
 
-Currently, two official plugins are available:
+---
+# Live Link
+https://taskflow-pro-react-vv9l.vercel.app/
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+### 📌 Task Management
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Add Tasks
+* Edit Tasks
+* Delete Tasks
+* Drag & Drop Tasks Between Columns
+* Persistent Storage using LocalStorage
 
-## Expanding the ESLint configuration
+### 📊 Productivity Dashboard
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Total Tasks Counter
+* To Do / In Progress / Done Stats
+* Productivity Progress Bar
+* Real-Time Updates
+
+### 🎨 Modern UI/UX
+
+* Dark & Light Theme
+* Responsive Design
+* Glassmorphism Styling
+* Smooth Framer Motion Animations
+* Premium Dashboard Layout
+* Interactive Hover Effects
+
+### 🔍 Smart Task Controls
+
+* Search Tasks
+* Filter by Priority
+* Sort by:
+
+  * Newest
+  * Oldest
+  * Priority
+  * Due Date
+
+### 🔔 Notifications
+
+* Toast Notifications for:
+
+  * Adding Tasks
+  * Updating Tasks
+  * Deleting Tasks
+
+---
+
+# 🛠️ Tech Stack
+
+* React.js
+* JavaScript (ES6+)
+* CSS3
+* Framer Motion
+* React Hot Toast
+* LocalStorage API
+
+---
+
+# 📸 Preview
+<img width="1917" height="911" alt="Screenshot 2026-05-18 201456" src="https://github.com/user-attachments/assets/60370de3-dd5f-47b1-a9f3-1cccf97a492d" />
+
+## Dashboard
+
+Modern productivity dashboard with Kanban workflow.
+
+## Features Included
+
+* Drag & Drop Task Management
+* Real-Time Productivity Tracking
+* Theme Switching
+* Responsive UI
+
+---
+
+# ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/DhruvTalati/Taskflow-pro-react.git
+```
+
+Go to project directory:
+
+```bash
+cd Taskflow-pro-react
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+# 📂 Project Structure
+
+```bash
+src/
+ ├── Components/
+ │   ├── Navbar.jsx
+ │   ├── Main.jsx
+ │   ├── Section.jsx
+ │   ├── TaskCard.jsx
+ │   ├── Stats.jsx
+ │   ├── AddTask.jsx
+ │   └── ViewTask.jsx
+ │
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
+```
+
+---
+
+# 🚀 Future Improvements
+
+* User Authentication
+* Backend Integration
+* MongoDB Database
+* Team Collaboration
+* Due Date Reminders
+* Calendar Integration
+* Real-Time Sync
+
+---
+
+# 👨‍💻 Author
+
+### Dhruv Talati
+
+Frontend Developer | UI/UX Enthusiast | React Developer
+
+GitHub:
+[https://github.com/DhruvTalati](https://github.com/DhruvTalati)
+
+---
+
+# ⭐ Support
+
+If you liked this project, give it a ⭐ on GitHub.
